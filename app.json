@@ -1,0 +1,13 @@
+{
+  "name": "Cybermaster-MD",
+  "description": "WhatsApp Multi Device Bot",
+  "repository": "https://github.com/Cybermaster08/Cybermaster-MD",
+  "logo": "",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "cybermaster"
+  ],
+  "env": {}
+}
