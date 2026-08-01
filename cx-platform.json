@@ -1,0 +1,6 @@
+{
+  "name": "Cybermaster-MD",
+  "version": "1.0.0",
+  "platform": "nodejs",
+  "start": "npm start"
+}
