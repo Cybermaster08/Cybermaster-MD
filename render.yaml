@@ -1,7 +1,13 @@
 services:
   - type: web
-    name: Cybermaster-MD
-    env: node
+    name: cybermaster-md
+    runtime: node
     plan: free
-    buildCommand: npm install
-    startCommand: npm start
+    buildCommand: npm install --legacy-peer-deps
+    startCommand: node index.js
+    autoDeploy: true
+    envVars:
+      - key: SESSION_ID
+        value: Cybermaster-MD:~<base64>  # Replace with your actual session string
+      - key: NODE_VERSION
+        value: 20
